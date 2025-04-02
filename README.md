@@ -30,7 +30,7 @@ Google Maps API – Location-based functionalities (if applicable)
 
 1️⃣ Clone the Repository
 
-   git clone https://github.com/Chenul-Thenuwara/degreehub/DegreeHub.git
+   git clone https://github.com/Chenul-Thenuwara/degreehub.git
    cd DegreeHub
 
 2️⃣ Install Dependencies
