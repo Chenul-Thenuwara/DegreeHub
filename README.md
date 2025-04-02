@@ -9,7 +9,7 @@
         </ul>
     </div>
     
-    <div class="section">
+ <div class="section">
         <h2>🚀 Technologies Used</h2>
         <ul>
             <li><strong>Flutter (Dart)</strong> – Cross-platform UI framework</li>
@@ -20,15 +20,15 @@
         </ul>
     </div>
     
-    <div class="section">
+   <div class="section">
         <h2>🔧 Setup Instructions</h2>
         <p><strong>1️⃣ Clone the Repository:</strong></p>
         <code>git clone https://github.com/yourusername/DegreeHub.git && cd DegreeHub</code>
         
-        <p><strong>2️⃣ Install Dependencies:</strong></p>
+ <p><strong>2️⃣ Install Dependencies:</strong></p>
         <code>flutter pub get</code>
         
-        <p><strong>3️⃣ Configure Firebase:</strong></p>
+   <p><strong>3️⃣ Configure Firebase:</strong></p>
         <ul>
             <li>Set up Firebase in your project: <a href="https://console.firebase.google.com/">Firebase Console</a></li>
             <li>Download <code>google-services.json</code> (Android) & <code>GoogleService-Info.plist</code> (iOS)</li>
@@ -38,12 +38,11 @@
                 <li><code>ios/Runner/</code> (for <code>GoogleService-Info.plist</code>)</li>
             </ul>
         </ul>
-        
-        <p><strong>4️⃣ Run the Application:</strong></p>
+               <p><strong>4️⃣ Run the Application:</strong></p>
         <code>flutter run</code>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>📌 Roadmap</h2>
         <ul>
             <li>[ ] Add student enrollment functionality</li>
@@ -52,8 +51,7 @@
             <li>[ ] Add search & filter features for degrees</li>
         </ul>
     </div>
-    
-    <div class="section">
+        <div class="section">
         <h2>🤝 Contributing</h2>
         <p>Contributions are welcome! Follow these steps:</p>
         <ul>
@@ -65,12 +63,11 @@
         </ul>
     </div>
     
-    <div class="section">
+<div class="section">
         <h2>📜 License</h2>
         <p>This project is licensed under the <strong>MIT License</strong>. See the <a href="LICENSE">LICENSE</a> file for details.</p>
     </div>
-    
-    <div class="section">
+        <div class="section">
         <h2>📬 Contact</h2>
         <p>For questions or collaborations, reach out:</p>
         <ul>
@@ -80,5 +77,5 @@
         </ul>
     </div>
     
-    <p class="footer">⭐ If you like this project, don't forget to star the repository! ⭐</p>
+<p class="footer">⭐ If you like this project, don't forget to star the repository! ⭐</p>
 </div>
