@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "531048822380",
+    "project_id": "degreehub-f674b",
+    "storage_bucket": "degreehub-f674b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531048822380:android:7b8c32d2be22bb7410ca49",
+        "android_client_info": {
+          "package_name": "com.example.degreehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY38elddEyK6RUAzFdOReRhSZPy7POAe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
