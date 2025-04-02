@@ -1,61 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DegreeHub - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        code {
-            background: #eee;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        pre {
-            background: #eee;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>DegreeHub</h1>
-    <p><strong>DegreeHub</strong> is a Flutter-based degree management application with Firebase as the backend. It allows users to add, manage, and view degree details efficiently.</p>
-    
-    <h2>Features</h2>
-    <ul>
-        <li>Add and manage degree programs</li>
-        <li>Role-based authentication</li>
-        <li>Firebase Firestore integration</li>
-        <li>Responsive UI built with Flutter</li>
-    </ul>
-    
-    <h2>Installation</h2>
-    <pre><code>git clone https://github.com/yourusername/degreehub.git
-cd degreehub
-flutter pub get
-flutter run</code></pre>
-    
-    <h2>Configuration</h2>
-    <p>Ensure that you have Firebase set up and update the <code>google-services.json</code> (Android) or <code>GoogleService-Info.plist</code> (iOS) in the appropriate directories.</p>
-    
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! Please fork the repository and submit a pull request.</p>
-    
-    <h2>License</h2>
-    <p>MIT License. See <code>LICENSE</code> for more details.</p>
-</body>
-</html>
+🎓 DegreeHub – Degree Management System
+
+DegreeHub is a Flutter-based degree management application designed to simplify the process of handling academic degrees. Built with Flutter for a seamless cross-platform experience and Firebase as the backend for secure authentication, real-time data storage, and Firestore database management.
+
+✨ Features
+
+✅ Role-based authentication (Admin, Student, Faculty)
+
+✅ Add, edit, and manage degrees effortlessly
+
+✅ Secure data storage with Firebase Firestore
+
+✅ Responsive and intuitive UI
+
+✅ Cloud Firestore integration for real-time updates
+
+🚀 Technologies Used
+
+Flutter (Dart) – Cross-platform UI framework
+
+Firebase Authentication – Secure user authentication
+
+Cloud Firestore – Real-time NoSQL database
+
+Provider / Riverpod – State management
+
+Google Maps API – Location-based functionalities (if applicable)
+
+🔧 Setup Instructions
+
+1️⃣ Clone the Repository
+
+   git clone https://github.com/yourusername/DegreeHub.git
+   cd DegreeHub
+
+2️⃣ Install Dependencies
+
+   flutter pub get
+
+3️⃣ Configure Firebase
+
+Set up Firebase for your project: Firebase Console
+
+Download google-services.json (for Android) and GoogleService-Info.plist (for iOS)
+
+Place them in their respective directories:
+
+android/app/ (for google-services.json)
+
+ios/Runner/ (for GoogleService-Info.plist)
+
+4️⃣ Run the Application
+
+   flutter run
+
+📌 Roadmap
+
+
+
+🤝 Contributing
+
+Contributions are welcome! If you'd like to contribute:
+
+Fork the repository
+
+Create a new branch (feature-branch)
+
+Commit your changes (git commit -m "Added new feature")
+
+Push to the branch (git push origin feature-branch)
+
+Open a Pull Request
+
+📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+📬 Contact
+
+For questions or collaborations, feel free to reach out:
+
+📧 Email: your.email@example.com
+
+🐦 Twitter: @yourhandle
+
+💼 LinkedIn: Your Profile
+
+⭐ If you like this project, don't forget to star the repository! ⭐
+
