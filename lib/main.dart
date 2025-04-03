@@ -1,20 +1,21 @@
-import 'package:degreehub/Pages/add_degree_page.dart';
-import 'package:degreehub/Pages/degree_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'pages/home_page.dart';
-
+import 'pages/add_degree_page.dart';
+import 'pages/degree_list_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(DegreeHubApp());
+  runApp(const DegreeHubApp());
 }
 
 class DegreeHubApp extends StatelessWidget {
+  const DegreeHubApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -24,9 +25,8 @@ class DegreeHubApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
       ),
-      initialRoute: '/home', // Start directly from Home
+      home: HomePage(), // Directly setting the home screen
       routes: {
-        '/home': (context) => HomePage(),
         '/degrees': (context) => DegreeListPage(),
         '/add_degree': (context) => AddDegreePage(),
       },

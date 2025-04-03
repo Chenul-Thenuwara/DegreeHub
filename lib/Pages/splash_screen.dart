@@ -1,3 +1,7 @@
+import 'package:degreehub/pages/home_page.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'home_page.dart';
 import 'package:degreehub/Pages/add_degree_page.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -64,5 +68,39 @@ class _HomePageState extends State<HomePage> {
         SnackBar(content: Text('Error deleting degree: $e')),
       );
     }
+  }
+}
+
+class SplashScreen extends StatefulWidget {
+  @override
+  _SplashScreenState createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(Duration(seconds: 3), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => HomePage()),
+      );
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Center(child: Image.asset('assets/degreehub_logo.png', width: 200)),
+          SizedBox(height: 30),
+          SpinKitFadingCircle(color: Colors.blue, size: 50), // Animated Loader
+        ],
+      ),
+    );
   }
 }
