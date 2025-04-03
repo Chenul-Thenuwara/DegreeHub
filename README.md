@@ -1,45 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DegreeHub Features</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background: #ecf0f1;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .emoji {
-            font-size: 1.2em;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
+
+<div class="container">
         <h1>🌟 DegreeHub - Simplifying Degree Management</h1>
         <h2>1️⃣ Students:</h2>
         <ul>
@@ -78,5 +38,3 @@
             <li>✅ <b>User-Friendly Interface</b> – Intuitive design makes navigation easy for all users.</li>
         </ul>
     </div>
-</body>
-</html>
