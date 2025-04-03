@@ -1,40 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DegreeHub – Degree Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section p {
+            font-size: 16px;
+            color: #34495e;
+        }
+        .section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .roadmap, .features {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .roadmap h3, .features h3 {
+            color: #2980b9;
+        }
+        .roadmap ul, .features ul {
+            padding-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
 
-<div class="container">
-        <h1>🌟 DegreeHub - Simplifying Degree Management</h1>
-        <h2>1️⃣ Students:</h2>
+ <h1>🎓 DegreeHub – Degree Management System</h1>
+    <div class="section">
+     <p>DegreeHub is a user-friendly application designed to help students navigate their educational journey. Whether you're a high school student deciding on a future degree or a university-bound individual exploring your options, DegreeHub simplifies the process of choosing the right academic path.</p>
+        <p>With both government and private degree options, this app provides comprehensive information about degree programs, eligibility requirements, tuition costs, career paths, and industry insights. DegreeHub serves as a one-stop resource for students in Sri Lanka, offering everything they need to know about higher education choices and the steps required to succeed.</p>
+    </div>
+    <div class="section">
+        <h2>🧐 What Can Users Do With This App?</h2>
         <ul>
-            <li>📝 <b>View & Enroll in Degrees</b> – Browse available degree programs and enroll easily.</li>
-            <li>📚 <b>Access Course Materials</b> – View course descriptions, credit hours, and schedules.</li>
-            <li>🎓 <b>Track Progress</b> – Monitor completed and pending courses in their degree.</li>
-            <li>🔔 <b>Get Notifications</b> – Receive alerts about assignments, exams, and deadlines.</li>
-            <li>📜 <b>Download Certificates/Transcripts</b> – Get academic records in PDF format.</li>
-            <li>📅 <b>View Academic Calendar</b> – Stay updated with exam dates and important events.</li>
-        </ul>
-        
-<h2>2️⃣ Faculty (Professors & Lecturers):</h2>
-        <ul>
-            <li>📋 <b>Manage Courses</b> – Create, update, and delete courses under a degree.</li>
-            <li>✅ <b>Enroll Students</b> – Approve and manage student enrollments.</li>
-            <li>✍️ <b>Upload & Share Course Materials</b> – Provide lecture notes, assignments, and resources.</li>
-            <li>🗓 <b>Schedule Exams & Classes</b> – Set exam dates and share schedules.</li>
-            <li>📊 <b>Monitor Student Performance</b> – Track students' progress and grades.</li>
-        </ul>
-        
-<h2>3️⃣ Admins:</h2>
-        <ul>
-            <li>⚙️ <b>Manage Users</b> – Approve, add, or remove students and faculty members.</li>
-            <li>🎓 <b>Manage Degrees & Courses</b> – Add, edit, or remove degree programs and subjects.</li>
-            <li>📈 <b>View Reports & Analytics</b> – Get insights on enrollments, student performance, and trends.</li>
-            <li>🔒 <b>Set Permissions & Access Control</b> – Define who can access what features.</li>
-        </ul>
-        
- <h2>🎯 Benefits of Using DegreeHub</h2>
-        <ul>
-            <li>✅ <b>Simplifies Degree Management</b> – Centralizes everything in one digital platform.</li>
-            <li>✅ <b>Saves Time</b> – No need for manual paperwork; quick enrollments & updates.</li>
-            <li>✅ <b>Real-Time Access</b> – Students & faculty can access information from anywhere.</li>
-            <li>✅ <b>Enhanced Communication</b> – Notifications & announcements keep everyone informed.</li>
-            <li>✅ <b>Secure & Reliable</b> – Firebase ensures data security and real-time synchronization.</li>
-            <li>✅ <b>User-Friendly Interface</b> – Intuitive design makes navigation easy for all users.</li>
+            <li><strong>Browse Degree Options:</strong> View a wide range of government and private degrees available in Sri Lanka.</li>
+            <li><strong>Eligibility for Government Degrees:</strong> Get information on what Advanced Level streams you need to select to qualify for various degrees in Sri Lankan universities.</li>
+            <li><strong>Private Degree Information:</strong> Find out the tuition costs for private degrees and whether the degree is UGC approved or recognized.</li>
+            <li><strong>Job Opportunities:</strong> Discover what kinds of job roles you can pursue after completing each degree.</li>
+            <li><strong>Industry Insights:</strong> Gain valuable insights into the job market, high-demand sectors, and current industry trends related to each degree program.</li>
+            <li><strong>Learning Outcomes:</strong> Learn what skills and knowledge you'll gain from each degree, including core subjects, practical experiences, and soft skills.</li>
+            <li><strong>Search & Filter:</strong> Sort degrees by university, faculty, or degree type, making it easy to find programs that meet your goals.</li>
         </ul>
     </div>
+    <div class="section">
+        <h2>💡 What to Expect?</h2>
+        <ul>
+            <li><strong>Real-Time Updates:</strong> All degree data and industry insights are updated in real-time, ensuring you have the most up-to-date information at your fingertips.</li>
+            <li><strong>Intuitive Interface:</strong> With a simple, easy-to-navigate UI, students can quickly find the information they need without confusion.</li>
+            <li><strong>Personalized Recommendations:</strong> Get tailored information based on your educational and career goals.</li>
+            <li><strong>Comprehensive Degree Database:</strong> Access detailed information about both government and private degrees, including tuition, skills acquired, job opportunities, and more.</li>
+            <li><strong>Guidance for Future Careers:</strong> Make well-informed decisions about your future with insights into job market trends and skills in demand.</li>
+        </ul>
+    </div>
+    <div class="roadmap section">
+        <h3>📌 Roadmap</h3>
+        <p>Here's what we plan to add to DegreeHub in future releases:</p>
+        <ul>
+            <li><strong>Notifications for Degree Updates:</strong> Implement push notifications for students to receive updates about new degree programs or changes in existing ones.</li>
+            <li><strong>Expanded Role-Based Access:</strong> Add more features for faculty, allowing them to manage degree programs and share insights with students.</li>
+            <li><strong>Degree Comparison Tool:</strong> Allow users to compare different degrees side by side based on factors like cost, skills, job opportunities, etc.</li>
+            <li><strong>User Profiles:</strong> Allow students to create and personalize profiles to receive customized degree recommendations based on their interests and background.</li>
+            <li><strong>Interactive Degree Visualizations:</strong> Add more interactive visualizations to represent career paths, salary ranges, and job demand across different industries.</li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 DegreeHub. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
