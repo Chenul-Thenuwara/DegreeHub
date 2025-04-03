@@ -28,9 +28,10 @@
             <li><strong>Guidance for Future Careers:</strong> Make well-informed decisions about your future with insights into job market trends and skills in demand.</li>
         </ul>
     </div>
-    <div class="roadmap section">
+    <div class="section">
         <h3>📌 Roadmap</h3>
-        <p>Here's what we plan to add to DegreeHub in future releases:</p>
+     
+   <p>Here's what we plan to add to DegreeHub in future releases:</p>
         <ul>
             <li><strong>Notifications for Degree Updates:</strong> Implement push notifications for students to receive updates about new degree programs or changes in existing ones.</li>
             <li><strong>Expanded Role-Based Access:</strong> Add more features for faculty, allowing them to manage degree programs and share insights with students.</li>
