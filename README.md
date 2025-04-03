@@ -1,81 +1,82 @@
-<div class="section">
-        <h2>✨ Features</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DegreeHub Features</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 DegreeHub - Simplifying Degree Management</h1>
+        <h2>1️⃣ Students:</h2>
         <ul>
-            <li>Role-based authentication (Admin, Student, Faculty)</li>
-            <li>Add, edit, and manage degrees effortlessly</li>
-            <li>Secure data storage with Firebase Firestore</li>
-            <li>Responsive and intuitive UI</li>
-            <li>Cloud Firestore integration for real-time updates</li>
+            <li>📝 <b>View & Enroll in Degrees</b> – Browse available degree programs and enroll easily.</li>
+            <li>📚 <b>Access Course Materials</b> – View course descriptions, credit hours, and schedules.</li>
+            <li>🎓 <b>Track Progress</b> – Monitor completed and pending courses in their degree.</li>
+            <li>🔔 <b>Get Notifications</b> – Receive alerts about assignments, exams, and deadlines.</li>
+            <li>📜 <b>Download Certificates/Transcripts</b> – Get academic records in PDF format.</li>
+            <li>📅 <b>View Academic Calendar</b> – Stay updated with exam dates and important events.</li>
         </ul>
-    </div>
-    
- <div class="section">
-        <h2>🚀 Technologies Used</h2>
-        <ul>
-            <li><strong>Flutter (Dart)</strong> – Cross-platform UI framework</li>
-            <li><strong>Firebase Authentication</strong> – Secure user authentication</li>
-            <li><strong>Cloud Firestore</strong> – Real-time NoSQL database</li>
-            <li><strong>Provider / Riverpod</strong> – State management</li>
-            <li><strong>Google Maps API</strong> – Location-based functionalities (if applicable)</li>
-        </ul>
-    </div>
-    
-   <div class="section">
-        <h2>🔧 Setup Instructions</h2>
-        <p><strong>1️⃣ Clone the Repository:</strong></p>
-        <code>git clone https://github.com/yourusername/DegreeHub.git && cd DegreeHub</code>
         
- <p><strong>2️⃣ Install Dependencies:</strong></p>
-        <code>flutter pub get</code>
+<h2>2️⃣ Faculty (Professors & Lecturers):</h2>
+        <ul>
+            <li>📋 <b>Manage Courses</b> – Create, update, and delete courses under a degree.</li>
+            <li>✅ <b>Enroll Students</b> – Approve and manage student enrollments.</li>
+            <li>✍️ <b>Upload & Share Course Materials</b> – Provide lecture notes, assignments, and resources.</li>
+            <li>🗓 <b>Schedule Exams & Classes</b> – Set exam dates and share schedules.</li>
+            <li>📊 <b>Monitor Student Performance</b> – Track students' progress and grades.</li>
+        </ul>
         
-   <p><strong>3️⃣ Configure Firebase:</strong></p>
+<h2>3️⃣ Admins:</h2>
         <ul>
-            <li>Set up Firebase in your project: <a href="https://console.firebase.google.com/">Firebase Console</a></li>
-            <li>Download <code>google-services.json</code> (Android) & <code>GoogleService-Info.plist</code> (iOS)</li>
-            <li>Place them in their respective directories:</li>
-            <ul>
-                <li><code>android/app/</code> (for <code>google-services.json</code>)</li>
-                <li><code>ios/Runner/</code> (for <code>GoogleService-Info.plist</code>)</li>
-            </ul>
+            <li>⚙️ <b>Manage Users</b> – Approve, add, or remove students and faculty members.</li>
+            <li>🎓 <b>Manage Degrees & Courses</b> – Add, edit, or remove degree programs and subjects.</li>
+            <li>📈 <b>View Reports & Analytics</b> – Get insights on enrollments, student performance, and trends.</li>
+            <li>🔒 <b>Set Permissions & Access Control</b> – Define who can access what features.</li>
         </ul>
-               <p><strong>4️⃣ Run the Application:</strong></p>
-        <code>flutter run</code>
-    </div>
-    
-<div class="section">
-        <h2>📌 Roadmap</h2>
+        
+ <h2>🎯 Benefits of Using DegreeHub</h2>
         <ul>
-            <li>[ ] Add student enrollment functionality</li>
-            <li>[ ] Implement notifications for updates</li>
-            <li>[ ] Expand role-based access for faculty</li>
-            <li>[ ] Add search & filter features for degrees</li>
+            <li>✅ <b>Simplifies Degree Management</b> – Centralizes everything in one digital platform.</li>
+            <li>✅ <b>Saves Time</b> – No need for manual paperwork; quick enrollments & updates.</li>
+            <li>✅ <b>Real-Time Access</b> – Students & faculty can access information from anywhere.</li>
+            <li>✅ <b>Enhanced Communication</b> – Notifications & announcements keep everyone informed.</li>
+            <li>✅ <b>Secure & Reliable</b> – Firebase ensures data security and real-time synchronization.</li>
+            <li>✅ <b>User-Friendly Interface</b> – Intuitive design makes navigation easy for all users.</li>
         </ul>
     </div>
-        <div class="section">
-        <h2>🤝 Contributing</h2>
-        <p>Contributions are welcome! Follow these steps:</p>
-        <ul>
-            <li>Fork the repository</li>
-            <li>Create a new branch (<code>feature-branch</code>)</li>
-            <li>Commit your changes (<code>git commit -m "Added new feature"</code>)</li>
-            <li>Push to the branch (<code>git push origin feature-branch</code>)</li>
-            <li>Open a Pull Request</li>
-        </ul>
-    </div>
-    
-<div class="section">
-        <h2>📜 License</h2>
-        <p>This project is licensed under the <strong>MIT License</strong>. See the <a href="LICENSE">LICENSE</a> file for details.</p>
-    </div>
-        <div class="section">
-        <h2>📬 Contact</h2>
-        <p>For questions or collaborations, reach out:</p>
-        <ul>
-            <li>📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-            <li>🐦 Twitter: <a href="https://twitter.com/yourhandle">@yourhandle</a></li>
-            <li>💼 LinkedIn: <a href="https://linkedin.com/in/yourprofile">Your Profile</a></li>
-        </ul>
-    </div>
-    
-<p class="footer">⭐ If you like this project, don't forget to star the repository! ⭐</p>
-</div>
+</body>
+</html>
