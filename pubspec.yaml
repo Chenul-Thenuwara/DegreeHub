@@ -37,7 +37,7 @@ dependencies:
   firebase_core: ^3.13.0
   firebase_auth: ^5.5.2
   cloud_firestore: ^5.6.6
-  flutter_spinkit: ^5.1.0
+  flutter_native_splash: ^2.4.5
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +63,30 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+
+  color: "#FAEDCD"
+  image: "assets/transperent_logo.png"
+  branding: "assets/transperent_text.png"
+
+  color_dark: "#D4A373"
+  image_dark: "assets/transperent_logo_dark.png"
+  branding_dark: "assets/transperent_text_dark.png"
+
+
+
+  android_12:
+    color: "#FAEDCD"
+    image: "assets/transperent_logo.png"
+    branding: "assets/transperent_text.png"
+    color_dark: "#D4A373"
+    image_dark: "assets/transperent_logo_dark.png"
+    branding_dark: "assets/transperent_text_dark.png"
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
