@@ -22,7 +22,7 @@ class _LoginpageState extends State<Loginpage> {
             children: [
               //Icon(Icons.lightbulb_outline_rounded, size: 100, ),
               Image.asset(
-              'assets/uni.png',
+              'assets/Transparent_Text.png',
                 width: 200,
                 height: 200,
                ),
