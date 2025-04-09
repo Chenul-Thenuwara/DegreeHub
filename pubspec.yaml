@@ -63,6 +63,7 @@ flutter:
     - assets/icon/book_icon.svg
     - assets/Transparent_logo_Text.png
     - assets/transparent_text.png
+    - assets/transparent_logo.png
     
 
   # The following line ensures that the Material Icons font is
