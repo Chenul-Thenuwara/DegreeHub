@@ -63,8 +63,8 @@ flutter:
     - assets/uni.png
     - assets/icon/book_icon.svg
     - assets/Transparent_logo_Text.png
-    - assets/transparent_text.png
-    - assets/transparent_logo.png
+    - assets/Transparent_Text.png
+    - assets/Transparent_logo.png
     
 
   # The following line ensures that the Material Icons font is
@@ -78,22 +78,22 @@ flutter_native_splash:
   web: true
 
   color: "#FAEDCD"
-  image: "assets/transparent_logo.png"
-  branding: "assets/transparent_text.png"
+  image: "assets/Transparent_logo.png"
+  branding: "assets/Transparent_Text.png"
 
   color_dark: "#D4A373"
-  image_dark: "assets/transparent_logo_dark.png"
-  branding_dark: "assets/transparent_text_dark.png"
+  image_dark: "assets/Transparent_logo_dark.png"
+  branding_dark: "assets/Transparent_Text_dark.png"
 
 
 
   android_12:
     color: "#FAEDCD"
-    image: "assets/transparent_logo.png"
-    branding: "assets/transparent_text.png"
+    image: "assets/Transparent_logo.png"
+    branding: "assets/Transparent_Text.png"
     color_dark: "#D4A373"
-    image_dark: "assets/transparent_logo_dark.png"
-    branding_dark: "assets/transparent_text_dark.png"
+    image_dark: "assets/Transparent_logo_dark.png"
+    branding_dark: "assets/Transparent_Text_dark.png"
 
 
   # To add assets to your application, add an assets section, like this:
