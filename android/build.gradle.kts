@@ -21,9 +21,7 @@ rootProject.layout.buildDirectory.value(newBuildDir)
 subprojects {
     val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
     project.layout.buildDirectory.value(newSubprojectBuildDir)
-}
 
-subprojects {
     if (plugins.hasPlugin("com.android.application") || plugins.hasPlugin("com.android.library")) {
         extensions.configure<com.android.build.gradle.BaseExtension> {
             compileOptions {
