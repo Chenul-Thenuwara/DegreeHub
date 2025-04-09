@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           children: [
-            Text('Sign in as : ' + user.email!),
+            Text('Sign in as : ${user.email!}'),
             MaterialButton(
               onPressed: () {
                 FirebaseAuth.instance.signOut();
