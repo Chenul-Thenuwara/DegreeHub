@@ -1,4 +1,3 @@
-import 'package:degreehub/sign_up.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -15,19 +14,38 @@ class _RegisterPageState extends State<RegisterPage> {
   //controller for email and password
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  final _confirmpasswordController = TextEditingController();
 
   @override
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();
+    _confirmpasswordController.dispose();
     super.dispose();
   }
 
   Future singUp() async {
-    await FirebaseAuth.instance.createUserWithEmailAndPassword(
-      email: _emailController.text.trim(),
-      password: _emailController.text.trim(),
-    );
+    if (passwordConfirmed()) {
+      await FirebaseAuth.instance.createUserWithEmailAndPassword(
+        email: _emailController.text.trim(),
+        password: _emailController.text.trim(),
+      );
+    }
+  }
+
+  bool passwordConfirmed() {
+    if (_passwordController.text.trim() ==
+        _confirmpasswordController.text.trim()) {
+      return true;
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Password do not match!'),
+          backgroundColor: Colors.red,
+        ),
+      );
+      return false;
+    }
   }
 
   @override
@@ -112,6 +130,33 @@ class _RegisterPageState extends State<RegisterPage> {
 
                 SizedBox(height: 10),
 
+                //Confirm password textfield
+                SizedBox(height: 10),
+
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.grey[200],
+                      border: Border.all(color: Colors.white),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 20.0),
+                      child: TextField(
+                        controller: _confirmpasswordController,
+                        obscureText: true,
+                        decoration: InputDecoration(
+                          border: InputBorder.none,
+                          hintText: 'Confirm Password',
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+
+                SizedBox(height: 10),
+
                 //sign in button
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25.0),
@@ -144,7 +189,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Iam a Member?',
+                      'I am a Member?',
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     GestureDetector(
