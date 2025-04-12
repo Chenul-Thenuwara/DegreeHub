@@ -1,7 +1,7 @@
-import 'package:degreehub/login_page.dart';
+import 'package:degreehub/auth/auth_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:degreehub/home_page.dart';
+import 'package:degreehub/Pages/home_page.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -17,7 +17,7 @@ class MainPage extends StatelessWidget {
             return HomePage();
           } else {
 
-            return Loginpage();
+            return AuthPage();
           }
         }, 
       ),
