@@ -41,6 +41,7 @@ dependencies:
   cloud_firestore: ^5.6.6
   flutter_native_splash: ^2.4.6
   path_provider_android: ^2.2.16
+  google_nav_bar: ^5.0.7
 
 dev_dependencies:
   flutter_test:

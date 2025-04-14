@@ -266,7 +266,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 SizedBox(height: 10),
 
                 //Confirm password textfield
-                SizedBox(height: 10),
+                
 
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25.0),
